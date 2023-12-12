@@ -1,6 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+
 *{
+    font-family: 'Lato', sans-serif;
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
 
+header{
+    background-image: url('../Img/wallpapper.jpg');
+    background-size: cover;
+    position: center;
+    height: 100vh;
+}
+
+.app{
+    height: 100vh;
+    background-color: #070506;
+    color: white;
+}
