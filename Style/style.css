@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
 
 *{
     font-family: 'Lato', sans-serif;
@@ -12,11 +13,95 @@ header{
     background-image: url('../Img/wallpapper.jpg');
     background-size: cover;
     position: center;
-    height: 100vh;
+    height: 130vh;
 }
 
 .app{
-    height: 100vh;
+    display: flex;
+    height: 70vh;
     background-color: #070506;
     color: white;
+    overflow: hidden;
+}
+
+.app img{
+    right: -100px;
+    bottom: -30px;
+    position: relative;
+}
+
+.appCelular{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 100px;
+}
+
+.baixarApp{
+    margin-left: -120px;
+    width: 45%;
+    height: 100px;
+    cursor: pointer;
+}
+
+.appCelular h2{
+    font-family: 'Berkshire Swash', serif;
+    color: #855638;
+    font-size: 50px;
+}
+
+.appCelular p{
+    margin-top: 15px;
+    font-size: 22px;
+    width: 75%;
+}
+
+.encontre{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    background-color: #1b1719;
+}
+
+.encontre h2{
+    font-family: 'Berkshire Swash', serif;
+    color: #855638;
+    font-size: 40px;
+    margin-top: 120px;
+}
+
+.texto{
+    margin-right: 50px;
+    text-align: center;
+}
+
+.texto span{
+    color: rgb(19, 165, 19);
+}
+
+.texto img{
+    width: 70%;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.encontre p{
+    font-size: 20px;
+    color: white;
+    margin-top: 10px;
+}
+
+.encontre iframe{
+    border-radius: 20px;
+    margin-top: 50px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    background-color: #070506;
+    color: rgba(255, 255, 255, 0.445);
+
 }
