@@ -107,3 +107,82 @@ footer{
     color: rgba(255, 255, 255, 0.445);
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Aqui começa o responsivo */
+
+
+/* Telas grandes (Desktop) */
+@media only screen and (min-width: 768px) and (max-width: 1280px){
+
+    header{
+        background-image: url('../Img/wallpapper.jpg');
+        background-size: cover;
+        position: center;
+        height: 100vh;
+    }
+
+    .app{
+        display: flex;
+        justify-content: center;
+        height: 50vh;
+        background-color: #070506;
+        color: white;
+        overflow: hidden;
+    }
+
+    .encontre{
+        height: 73vh;
+        display: flex;
+        justify-content: center;
+        background-color: #1b1719;
+    }
+    
+  }
+
+  @media only screen and (min-width: 768px) and (max-width: 1023px) {
+    header{
+        background-image: url('../Img/wallpapper.jpg');
+        background-size: cover;
+        position: center;
+        height: 50vh;
+    }
+
+    .app{
+        display: flex;
+        justify-content: center;
+        height: 35vh;
+        background-color: #070506;
+        color: white;
+        overflow: hidden;
+    }
+
+    
+
+ }
+
+
+  
