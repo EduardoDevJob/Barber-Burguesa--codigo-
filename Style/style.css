@@ -81,6 +81,7 @@ header{
 
 .texto img{
     width: 70%;
+    height: 70px;
     margin-top: 20px;
     cursor: pointer;
 }
