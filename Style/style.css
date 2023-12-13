@@ -45,6 +45,7 @@ header{
 }
 
 .appCelular h2{
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.37);
     font-family: 'Berkshire Swash', serif;
     color: #855638;
     font-size: 50px;
@@ -93,7 +94,7 @@ header{
 }
 
 .encontre iframe{
-    border-radius: 20px;
+    border-radius: 10px;
     margin-top: 50px;
 }
 
