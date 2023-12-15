@@ -69,6 +69,7 @@ header{
     color: #855638;
     font-size: 40px;
     margin-top: 120px;
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.288);
 }
 
 .texto{
@@ -138,6 +139,11 @@ footer{
 /* Telas grandes (Desktop) */
 @media only screen and (min-width: 768px) and (max-width: 1280px){
 
+    .app,.encontre{
+        height: auto;
+    }
+
+
     header{
         background-image: url('../Img/wallpapper.jpg');
         background-size: cover;
@@ -155,7 +161,7 @@ footer{
     }
 
     .encontre{
-        height: 73vh;
+        height: 70vh;
         display: flex;
         justify-content: center;
         background-color: #1b1719;
@@ -164,6 +170,11 @@ footer{
   }
 
   @media only screen and (min-width: 768px) and (max-width: 1023px) {
+    
+    .app,.encontre{
+        height: auto;
+    }
+
     header{
         background-image: url('../Img/wallpapper.jpg');
         background-size: cover;
@@ -180,7 +191,79 @@ footer{
         overflow: hidden;
     }
 
+    .mao{
+        width: 100%;
+        bottom: -100px;
+    }
+
+    .baixarApp{
+        margin-left:-20px ;
+        width: 60%;
+        height: 120px;
+        cursor: pointer;
+    }
+
+    .encontre{
+        display: flex;
+        flex-direction: column;
+        height: 75vh; 
+    }
+
+    .texto{
+        margin: 0px auto;
+
+    }
+
+    .texto h2{
+        margin-top: -20px;
+    }
+
+    .texto img{
+        width: 70%;
+    }
+
+    .frame{
+        margin: 0px auto;
+        
+    }    
+
+ }
+
+ @media only screen and (min-width: 768px) and (max-width: 884px){
+    .app,.encontre{
+        height: auto;
+    }
+
+    .encontre{
+        height: 80vh;
+    }
+
     
+
+
+
+ }
+
+ @media only screen and (min-width: 768px) and (max-width: 1114px){
+
+    .app,.encontre{
+        height: auto;
+    }
+    
+    .mao{
+        width: 80%;
+        bottom: 0px;
+    }
+
+    .baixarApp{
+        width: 40%;
+        height: 80px;
+    }
+
+    .encontre{
+        height: 83vh;
+    }
+
 
  }
 
