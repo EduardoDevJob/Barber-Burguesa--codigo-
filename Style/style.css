@@ -135,8 +135,6 @@ footer{
 
 /* Aqui começa o responsivo */
 
-
-/* Telas grandes (Desktop) */
 @media only screen and (min-width: 768px) and (max-width: 1280px){
 
     .app,.encontre{
@@ -229,22 +227,85 @@ footer{
 
  }
 
- @media only screen and (min-width: 768px) and (max-width: 884px){
+ @media only screen and (min-width: 801px) and (max-width: 884px){
+
     .app,.encontre{
         height: auto;
     }
-
+   
     .encontre{
         height: 80vh;
     }
 
-    
+    .mao{
+        top: 0px;
+    }
 
+    .appCelular h2{
+        font-size: 38px;
+    }
 
+    .appCelular p{
+        font-size: 20px;
+    }
+ }
+
+ @media only screen and (min-width: 769px) and (max-width: 800px){
+
+    .app{
+        height: 27vh;
+    }
+
+    .mao{
+        top: 90px;
+    }
+
+    .app h2{
+        font-size: 37px;
+    }
+
+    .baixarApp{
+        width: 70%;
+
+    }
+
+    .encontre{
+        height: 65vh;
+    }
 
  }
 
- @media only screen and (min-width: 768px) and (max-width: 1114px){
+ @media only screen and (min-width: 431px) and (max-width: 768px){
+    .encontre{
+        height: 90vh;
+    }
+
+    .mao{
+        top: 20px;
+    }
+    
+    .app{
+        height: 27vh;
+    }
+
+    .app h2{
+        font-size: 34px;
+    }
+
+    .app p{
+        font-size: 23px;
+    }
+    
+    .baixarApp{
+        width: 60%;
+        height: 80px;
+    }
+
+ }
+
+
+
+ @media only screen and (min-width: 885px) and (max-width: 1114px){
 
     .app,.encontre{
         height: auto;
@@ -264,8 +325,58 @@ footer{
         height: 83vh;
     }
 
-
  }
+
+ @media only screen and (max-width: 767px) {
+    .app,.encontre, footer{
+        height: auto;
+    }
+
+    .app{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        height: 80vh;
+    }
+
+    .appCelular{
+        width: 100%;
+        margin-left: -0px auto;
+    }
+
+    .appCelular h2{
+        margin-left: -100px;
+        margin-top: 30px;
+    }
+
+    .baixarApp{
+        width: 90%;
+        margin-left: -25px;
+    }
+    
+    .mao{
+        top: 0px;
+    }
+
+    .texto{
+        margin-right: 0px;
+    }
+
+    .frame iframe{
+        width: 100%;
+         margin-bottom: 40px;
+    }
+
+    .encontre{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    
+    }
+
+
+  }
 
 
   

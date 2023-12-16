@@ -1,6 +1,5 @@
 // Inicio Script para redirecionamento
 
-
 function redirecionamento(){ 
     var appURL = 'https://apps.apple.com/br/app/appbarber-cliente/id6450795073'
 
@@ -13,10 +12,5 @@ function whats (){
     window.open(whatsURL, '_blank');
 
 }
-
-
-
-
-
 
 // Fim script para redirecionamento
